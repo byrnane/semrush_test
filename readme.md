@@ -1,4 +1,4 @@
-## Heading
+## Запуск
 
 ```sh
 npm run dev // запуск dev-сервера
