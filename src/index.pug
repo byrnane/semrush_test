@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Тестовое задание - SEMrush
+    body
+        h1.mainTitle Тестовое задание - SEMrush
+        h2.taskTitle Задание №1. Поиск плохих коммитов в репозитории
+        .taskWrapper
+            .top
+                .text
+                    span.info Кол-во коммитов в репозитории:
+                    span.result#repoSize 20
+                    br
+                    br
+                    span.info ID первого "плохого" коммита:
+                    span.result#targetID не найден
+                    br
+                    br
+                    span.info Для большей информации смотрите вывод консоли и исходный кодbr
+                    br
+                    span.info Disclaimer: Если включена эмуляция задержки - придется подождать ;)
+                .btns
+                    .checkBtn#repoBtn Найти
+                    .emulation
+                        input#emuChx(type="checkbox")
+                        label(for="emuChx") Эмулировать задержку
+                    .reBtn Пересоздать
+            .repo
+        h2.taskTitle Задание №2. Баланс скобок в строке
+        .taskWrapper
+            span.info Баланс скобок в строке:
+            span.result#balance неизвестен
+            br
+            br
+            span.info Для большей информации смотрите вывод консоли и исходный код
+            .form
+                input.input#strInp(type="text", placeholder="Введите строку для проверки...")
+                .checkBtn#strBtn Проверить
+        footer Тут футер. И больше ничего интересного
